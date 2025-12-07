@@ -2,7 +2,7 @@
 
 In this repo you will find the firmware and a library to run MicroBlocks on the TUDCTF2025 ESP32S3 hardware. This version supports alle the hardware components and furthermore, it also supports graphics on an ILI9341 touch screen.
 
-## MicroBlcoks Firmware
+## MicroBlocks Firmware
 
 You can use the [online esptool](https://espressif.github.io/esptool-js/) for flashing your unit. Put your hardware unit in flashing mode by pressing the reset button while holding the boot button. Erase the flash before loading the firmware `firmware_tudctf-lvgl_all.bin`. Set flash address to 0x0.
 
@@ -11,7 +11,7 @@ You can use the [online esptool](https://espressif.github.io/esptool-js/) for fl
 
 ## Library for TUDCTFESP32S3
 
-The library `tudctf.ubl` all the hardware components are available. A small demo program can be found in `tudctf_demo.ubp'.
+In the library `tudctf.ubl` all the hardware components are available. A small demo program showing how to use the hardware (including the IR detection) can be found in `tudctf_demo.ubp'.
 
 ## LVGL
 
