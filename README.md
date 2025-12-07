@@ -28,15 +28,15 @@ You can order a cheap ILI9341 display at [TinyTronics](https://www.tinytronics.n
 
 These are the pins on the ESP32S3 board:
 
-| Display | GPIO |
+| Display | Pin |
 |------|-------|
-|TFT_MISO | 12 |
-|TFT_MOSI | 13 |
-| TFT_SCLK | 14 |
-| TFT_CS | 15 |
-| TFT_DC | 36 |
-| TFT_RST | 37 | 
-| TOUCH_CS | 38 |
-| LED | 39 | 
+|TFT_MISO | IO12 |
+|TFT_MOSI | IO13 |
+| TFT_SCLK | IO14 |
+| TFT_CS | IO15 |
+| TFT_DC | IO36 |
+| TFT_RST | IO37 | 
+| TOUCH_CS | IO38 |
+| LED | IO39 | 
 | VCC | 3V3 |
 | GND | GND |
