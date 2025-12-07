@@ -4,7 +4,10 @@ In this repo you will find the firmware and a library to run MicroBlocks on the 
 
 ## MicroBlcoks Firmware
 
-You can use the [online esptool](https://espressif.github.io/esptool-js/) for flashing your unit. Erase the flash before loading the firmware `firmware_tudctf-lvgl_all.bin`. User address 0x0
+You can use the [online esptool](https://espressif.github.io/esptool-js/) for flashing your unit. Put your hardware unit in flashing mode by pressing the reset button while holding the boot burron. Erase the flash before loading the firmware `firmware_tudctf-lvgl_all.bin`. Set flash address to 0x0.
+
+<img width="766" height="272" alt="image" src="https://github.com/user-attachments/assets/c9fdfae6-6ea5-4bc0-a506-c66104a1573a" />
+
 
 ## Library for TUDCTFESP32S3
 
