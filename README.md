@@ -24,7 +24,7 @@ The specifications of the display should be:
 - ILI9341 controller
 - XT2046 touch controller
 
-You can order a cheap ILI9341 display at [TinyTronics]](https://www.tinytronics.nl/en/displays/tft/2.4-inch-tft-display-240*320-pixels-with-touchscreen-spi-ili9341). The one from TinyTronics has already the SPI interfaces for the graphics controller and touch controller combined (in order to limit the number of wires). If you order a display with AliExpress, you have to connect the SCLK, MOSI and MISO of the touch controller yourself to the same signals of the graphics controller.
+You can order a cheap ILI9341 display at [TinyTronics](https://www.tinytronics.nl/en/displays/tft/2.4-inch-tft-display-240*320-pixels-with-touchscreen-spi-ili9341). The one from TinyTronics has already the SPI interfaces for the graphics controller and touch controller combined (in order to limit the number of wires). If you order a display with AliExpress, you have to connect the SCLK, MOSI and MISO of the touch controller yourself to the same signals of the graphics controller.
 
 These are the pins on the ESP32S3 board:
 
