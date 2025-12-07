@@ -38,3 +38,5 @@ These are the pins on the ESP32S3 board:
 | TFT_RST | 37 | 
 | TOUCH_CS | 38 |
 | LED | 39 | 
+| VCC | 3V3 |
+| GND | GND |
