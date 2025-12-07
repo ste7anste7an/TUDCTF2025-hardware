@@ -4,7 +4,7 @@ In this repo you will find the firmware and a library to run MicroBlocks on the 
 
 ## MicroBlcoks Firmware
 
-You can use the [online esptool](https://espressif.github.io/esptool-js/) for flashing your unit. Put your hardware unit in flashing mode by pressing the reset button while holding the boot burron. Erase the flash before loading the firmware `firmware_tudctf-lvgl_all.bin`. Set flash address to 0x0.
+You can use the [online esptool](https://espressif.github.io/esptool-js/) for flashing your unit. Put your hardware unit in flashing mode by pressing the reset button while holding the boot button. Erase the flash before loading the firmware `firmware_tudctf-lvgl_all.bin`. Set flash address to 0x0.
 
 <img width="766" height="272" alt="image" src="https://github.com/user-attachments/assets/c9fdfae6-6ea5-4bc0-a506-c66104a1573a" />
 
@@ -16,6 +16,8 @@ The library `tudctf.ubl` all the hardware components are available. A small demo
 ## LVGL
 
 In the repo [microblocks_lvgl](https://github.com/ste7anste7an/microblocks_lvgl) you find the MicroBlocks LVGL library and examples in the MicroBlcoks directory. Some preliminary documentation can be found on [Antonsmindstorms.com](https://www.antonsmindstorms.com/docs/lvgl-for-microblocks/) and [in this repo](https://github.com/ste7anste7an/lvgl_for_MicroBlocks)
+
+The cool thing about programming LVGL in MicroBlocks, is that while programming, you see the GUI in real time on the display it self.
 
 ## Ordering and connecting a touch screen
 The specifications of the display should be:
