@@ -1,0 +1,32 @@
+module tudctf
+author Ste7an
+version 1 0 
+description 'Library for using default hardware at TUDCTF2025 board
+'
+
+  spec 'r' 'sw3' 'sw3'
+  spec 'r' 'sw4' 'sw4'
+  spec ' ' 'init neopixels' 'init neopixels'
+  spec ' ' 'led' 'led _ intensity _' 'auto auto' 1 50
+  spec 'r' 'ir receive pin' 'ir receive pin'
+
+to 'init neopixels' {
+  neoPixelAttach 4 17
+}
+
+to 'ir receive pin' {
+  return 35
+}
+
+to led nr intensity {
+  if (and (nr >= 1) (nr <= 4)) {analogWriteOp nr intensity}
+}
+
+to sw3 {
+  return (digitalReadOp 21 'up')
+}
+
+to sw4 {
+  return (digitalReadOp 33 'up')
+}
+
